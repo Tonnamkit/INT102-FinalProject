@@ -1,0 +1,161 @@
+body{
+    background-image: url(../img/bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    font-size: 20px;
+}
+
+.head{
+    display: block;
+    margin: 20px auto;
+    background-color: #b6edc9;
+    border-radius: 20px;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    box-shadow: -5px 10px 5px lightblue;
+}
+
+.head img{
+    max-width: 100%;
+    height: auto;
+}
+
+#blue{
+    color: #245db2;
+}
+
+.button{
+    max-width: 1200px;
+    width: 70%;
+    display: block; 
+    border-radius: 20px;
+    margin: 20px auto;
+}
+
+.button a{
+    padding: 10px 10px;
+    color: black;
+}
+
+.button a:hover p b{
+    text-decoration: underline;
+}
+
+.button .button1{
+    padding: 5px 20px;
+    background-color: whitesmoke;
+}
+
+.button .button2{
+    padding: 5px 20px;
+    background-color: azure;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 1.75em;
+}
+
+.date{
+    display: block;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.describe{
+    display: block;
+    font-size: 16px;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.mood{
+    margin: 30px 30px;
+    float: right;
+}
+
+.mood img{
+    width: 45px;
+    height: 45px;
+}
+
+.box{
+    display: block;
+}
+
+.flex-extra{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item{
+    background-color: skyblue;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.flex-item p{
+    text-align: left;
+    font-size: 20px;
+}
+
+.flex-item p a{
+    background-color: aliceblue;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 3px;
+}
+
+.calender{
+    position: relative;
+    width: 200px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.calender #monthName{
+    padding: 5px 10px;
+    background-color: #559f6f;
+    color: #fff;
+    font-size: 30px;
+}
+
+.calender #dayName{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #000;
+}
+
+.calender #dayNumber{
+    margin-top: 0px;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.calender #ref{
+    font-size: 14px;
+    background-color: #b6edc9;
+    margin: 10px auto 0;
+}
+@media screen and (max-width:940px) {
+    .flex-container{
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .flex-item{
+        width: 100%;
+    }
+}
